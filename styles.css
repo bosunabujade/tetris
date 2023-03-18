@@ -1,9 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+body {
+    background-image: linear-gradient(to right, #000428 , #004e92);
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header {
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    width: 25%;
+    
+}
+
+button {
+    background-color: rgba(255, 255, 255, .9);
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding: 10px;
+}
+    
+
 .container {
     display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .grid {
-    background-color: black;
+    background-color: rgba(185, 223, 255, .5);
     display: flex;
     flex-wrap: wrap;
     height: 400px;
@@ -20,15 +63,16 @@
 }
 
 .mini-grid {
-    background-color: black;
+    background-color: rgba(185, 223, 255, .5);
     display: flex;
     flex-wrap: wrap;
-    height: 80px;
+    height: 120px;
     margin-left: 50px;
-    width: 80px;
+    width: 120px;
 }
 
 .mini-grid div {
     height: 20px;
     width: 20px
 }
+
